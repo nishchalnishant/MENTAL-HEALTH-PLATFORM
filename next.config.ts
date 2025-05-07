@@ -13,6 +13,9 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  // Add this to ensure all assets are included
+  assetPrefix: '/mental-health-platform/',
+  trailingSlash: true,
 };
 
 export default nextConfig;
